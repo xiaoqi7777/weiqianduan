@@ -20,9 +20,12 @@ const routes = [
   }
 ]
 
+
+
+// base 设置成 父应用 默认进入的路由
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/vue',
   routes
 })
 
